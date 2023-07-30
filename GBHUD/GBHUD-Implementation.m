@@ -24,6 +24,8 @@
 
 #import <QuartzCore/QuartzCore.h>
 
+#import <CoreImage/CoreImage.h>
+
 #if TARGET_OS_IPHONE
 static CGFloat const kAnimationDuration =                           0.2;
 static BOOL const kDefaultDisableUserInteraction =                  YES;
